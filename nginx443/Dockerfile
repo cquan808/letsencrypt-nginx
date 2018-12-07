@@ -1,6 +1,6 @@
 # dockerfile for meshington nginx + cron (release)
-FROM ubuntu:16.04
-MAINTAINER Chris Quan <chris.quan@abracontrols.com>
+FROM ubuntu:18.04
+MAINTAINER Chris Quan
 
 # Install nginx
 RUN apt-get update
